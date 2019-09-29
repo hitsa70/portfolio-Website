@@ -1,0 +1,193 @@
+/*	Hello devloper	*/
+
+body{
+	font-family: 'Bitter', serif;
+}
+header a{
+	text-decoration:none;
+}
+
+/*	our website wrapper	*/
+
+
+
+p{
+text-align:left;
+}
+
+#wrapper{
+	text-align: center;
+	max-width:940px;
+	margin:0 auto 0 auto;
+	background-color:white ;
+	padding:0 5% 0 5%;
+	
+	 
+}
+
+/*	our website logo	*/
+
+#logo{
+	margin:0;
+	text-align:center;
+	font-family: 'Josefin Sans', sans-serif;	/*Fonts for our logo*/
+}
+
+#logo a{
+	color: #222222;	 /*	Dark grey	*/
+
+}
+
+#logo h1{
+	font-size:2em;	/*	32px as 1em =16px	*/
+}
+#logo h2{
+	font-size:1.25em;	/*	32px as 1em =16px	*/
+	font-weight:normal;
+}
+
+				a{
+					color:	#fb3c3c;/*	Red	*/;
+				}
+
+
+				a:visited{
+					color:	#fb3c3c;/*	Red	*/
+				}
+
+
+/*	Navigation	*/
+.navigationlinks{
+	font-size:18px;
+}
+
+nav{
+	text-align:center;
+}
+
+
+
+nav a:hover{
+	color:#520e0e;	 /*	Darker red	*/
+	font-weight:bold;
+}
+
+
+nav ul li{
+	padding:0px;
+	margin:0 70px 10px 0;
+	display:inline-block;
+	
+	
+}
+
+
+
+/*	Footer	*/
+
+footer{
+	margin-top:50px;
+	font-size:1.25em;
+	color:#222222;
+	text-align:center;
+	clear:both;
+}
+
+footer p{
+	font-style:italic;
+	text-align:center;
+}
+
+/*	Portfolio styling	*/
+
+img{
+	max-width:100%;
+	
+}
+
+#Portfolio {
+	list-style:none;
+}
+
+#Portfolio li { 
+	width:95%;
+	margin:10px 2.5% 0 2.5%;
+}
+
+
+/*Styling images through class */
+
+.socialicons{
+	height:40px;
+	width:40px;
+}
+
+
+/*------------------------------ABOUT PAGE------------------------------------ */
+
+.profilepc{
+	max-width:300px;
+	margin:5px auto 5px auto;
+	display:block;
+	
+	
+}
+
+
+
+
+
+/*------------------------------BLOG PAGE------------------------------------ */
+
+.blogprofilepic{
+	max-width:300px;
+	margin:5px;
+	display:block;
+	border-radius:100%;
+}
+
+.sidebar li{
+	text-align:left;
+	text-decoration: none;
+	list-style:none;
+}
+
+
+
+
+.sidebar {
+	text-align:center;
+	margin:0 5% 0 5%;
+}
+.sidebar h3 {
+	text-align:center;
+}
+/*Media quries for pages*/
+
+@media screen and (min-width: 600px)
+{
+	#Portfolio li {
+		float: left;
+		width: 45%;
+		margin:2.5%;		
+	}
+	.sidebar{
+	float:right;
+	}
+	h3{
+	margin-bottom:20px;
+		text-align:left;
+	}
+
+	
+}
+
+@media screen and (min-width: 900px)
+{
+	#Portfolio li {
+		float: left;
+		width: 28%;
+		margin:2.5%;		
+	}
+}
+
