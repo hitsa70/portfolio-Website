@@ -17,7 +17,7 @@ text-align:left;
 
 #wrapper{
 	text-align: center;
-	max-width:940px;
+	max-width:58.75rem;
 	margin:0 auto 0 auto;
 	background-color:white ;
 	padding:0 5% 0 5%;
@@ -86,7 +86,7 @@ nav ul li{
 /*	Footer	*/
 
 footer{
-	margin-top:50px;
+	margin-top:3.125rem;
 	font-size:1.25em;
 	color:#222222;
 	text-align:center;
@@ -118,15 +118,15 @@ img{
 /*Styling images through class */
 
 .socialicons{
-	height:40px;
-	width:40px;
+	height:2.5rem;
+	width:2.5rem;
 }
 
 
 /*------------------------------ABOUT PAGE------------------------------------ */
 
 .profilepc{
-	max-width:300px;
+	max-width:18.75mre;
 	margin:5px auto 5px auto;
 	display:block;
 	
@@ -140,7 +140,7 @@ img{
 /*------------------------------BLOG PAGE------------------------------------ */
 
 .blogprofilepic{
-	max-width:300px;
+	max-width:18.75rem;
 	margin:5px;
 	display:block;
 	border-radius:100%;
@@ -164,7 +164,7 @@ img{
 }
 /*Media quries for pages*/
 
-@media screen and (min-width: 600px)
+@media screen and (min-width: 37.25rem)
 {
 	#Portfolio li {
 		float: left;
@@ -182,7 +182,7 @@ img{
 	
 }
 
-@media screen and (min-width: 900px)
+@media screen and (min-width: 56.25rem)
 {
 	#Portfolio li {
 		float: left;
